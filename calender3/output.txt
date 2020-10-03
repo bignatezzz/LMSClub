@@ -1,0 +1,12 @@
+Get my schedule from function and print in uppercase.
+DAY           TIME.                        SUBJECT
+        MONDAY   10:00 - 11:00 AM    PERIOD 1
+                 11:30-12:30 AM.    MATH
+        TUESDAY  9:00-11:00 AM     PE
+                 10:00-11:00 AM.    SCIENCE
+        WEDNESDAY  9:00-11:00 AM   PERIOD 3
+                 10:00-11:00 AM.    SCIENCE
+Check if the character is in schedule
+('Wednesday', ' is in the schedule at ', 228)
+('Monday', ' is in the schedule at ', 59)
+('tuesdaY', ' is in the schedule at ', 146)
