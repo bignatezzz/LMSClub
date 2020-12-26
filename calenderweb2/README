@@ -1,0 +1,18 @@
+prereq: sudo pip3 install virtualenv pip install flask
+
+Run: Run program with calenderweb1.py script
+
+setup:
+1. virtualenv flask_app
+2. cd flask_app
+3. mkdir templates
+4. cp ../index.html templates/.
+5. cp ../calenderweb2.py .
+6. ls
+result:  bin lib pyvenv.cfg calenderweb2.py templates
+7. source bin/activate
+8. pip install flask
+9. python calenderweb2.py
+10. OPEN BROWSER http://localhost
+
+html files should be placed in templates directory
