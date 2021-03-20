@@ -1,0 +1,20 @@
+Mon, period 1, 9 am -10 am, Mr.A
+Tue, period 1, 10 am -11 am, Mr.A
+Thu, period 2, 9 am -10 am, Miss B
+Fri, period 2, 10 am -11 am, Miss B
+Mon, period 3, 10 am -11 am, Mr.B
+Wed, PE, 10 am -11 am, Mr.Z
+Thu, PE, 11 am -12 pm, Mr.Z
+Fri, PE, 10 am -11 am, Mr.Z
+Wed, period 1, 1 pm -2 pm, Mr.A
+Thu, period 1, 8 am -9 am, Mr.A
+Fri, period 1, 11 am -12 pm, Mr.A
+Mon, period 2, 8 am -9 am, Miss.B
+Tue, period 2, 9 am -10 am, Miss B
+Wed, period 2, 11 am -12 pm, Miss B
+Tue, period 3, 8 am -9 am, Mr.B
+Mon, PE, 11 am -12 pm, Mr.Z
+Tue, PE, 11 am -12 pm, Mr.Z
+Wed, period 3, 1 pm -2 pm, Mr.B
+Thu, period 3, 10 am -11 am, Mr.B
+Fri, period 3, 8 am -9 am, Mr.B
