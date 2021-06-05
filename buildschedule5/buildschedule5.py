@@ -115,13 +115,37 @@ def add_to_schedule(day,period,time_period,teacher):
         print "#### Failed to add new entry to schedule: Invalid Day "+ day
         return False
 
+#Mark day as holiday/ no school
+def no_school_day(day):
+    #need to check if it is real day
+    if day in g_days:
+       #delete that day schedule from weekly schedule
+       g_thisdict[day]={}
+       print "deleting day from schedule: " + day
+       return True
+    else:
+       print "Invalid Day: " + day
+       return False
+
+
 #this is the main routine
+print "1.Test loading and printing schedule."
 load_schedule()
 print_schedule()
+
+print "2.Test to add new entries to the schedule."
 day="Wed"
 period="period 9"
 time_period="4 pm -5 pm"
 teacher="Mr. B"
 ret=add_to_schedule(day,period,time_period,teacher)
+if ret is True:
+   print_schedule()
+
+
+print "3.Test to delete the day from the schedule."
+#delete example:
+day="Wed"
+ret=no_school_day(day)
 if ret is True:
    print_schedule()
